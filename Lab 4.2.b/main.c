@@ -35,6 +35,10 @@ void asal(){
     printf("\nAlt ve Ust Sinir Giriniz\n");
     scanf("%d",&a);
     scanf("%d",&b);
+    if(b<2)
+    {
+        printf("Bu aralikta sayi yoktur");
+    }
     for(int i=a;i<=b;i++){
         asal=0;
         for(int j=1;j<=i;j++){
