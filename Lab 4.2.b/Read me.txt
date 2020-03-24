@@ -1,0 +1,3 @@
+İki temel matematik işlemi yapan bir oyun.
+Asal sayı ve girilen 3 sayıdan en küçüğünü ekrana yazdırır.
+Oyun menü fonksiyounu içinde oynanır ve biter.
