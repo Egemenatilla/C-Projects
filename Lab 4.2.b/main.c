@@ -1,4 +1,4 @@
-//Oyun içeriðine read me ile ulaþabilirsiniz.
+//Oyun icerigine read me ile ulasabilirsiniz.
 #include <stdio.h>
 #include <stdlib.h>
 
