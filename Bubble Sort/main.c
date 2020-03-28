@@ -15,9 +15,9 @@ int main()
         dizi[i]=eleman;
     }
     int gecici;
-    for(int i=0;i<10;i++)
+    for(int i=0;i<boyut;i++)
     {
-        for(int j=1;j<10;j++){
+        for(int j=1;j<boyut;j++){
             if(dizi[j-1]>dizi[j])
             {
                 gecici=dizi[j];
@@ -28,7 +28,7 @@ int main()
     }
 
     }
-    for(int i=0;i<10;i++)
+    for(int i=0;i<boyut;i++)
         printf("%d\n",dizi[i]);
     return 0;
 }
