@@ -18,14 +18,14 @@ int main()
     for(int i=0;i<10;i++)
     {
         for(int j=1;j<10;j++){
-        if(dizi[j-1]>dizi[j])
-        {
-            gecici=dizi[j];
-            dizi[j]=dizi[j-1];
-            dizi[j-1]=gecici;
-        }
+            if(dizi[j-1]>dizi[j])
+            {
+                gecici=dizi[j];
+                dizi[j]=dizi[j-1];
+                dizi[j-1]=gecici;
+            }
 
-        }
+    }
 
     }
     for(int i=0;i<10;i++)
